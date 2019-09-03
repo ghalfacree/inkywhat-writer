@@ -1,0 +1,42 @@
+ _____           ___ __  _ ___      __  ___      __ ____
+|_   _|  _ ___  |_  )  \/ / _ \___ /  \/ _ \___ /  \__ /
+  | || || / -_)  / / () | \_, /___| () \_, /___| () |_ \
+  |_| \_,_\___| /___\__/|_|/_/     \__/ /_/     \__/___/
+                                                        
+ _______________________________         .-.      Light Rain Shower
+< Closed weekends and holidays. >       (   ).    17 °C          
+ -------------------------------       (___(__)   ↑ 15 km/h      
+        \   ^__^                        ‘ ‘ ‘ ‘   10 km          
+         \  (oo)\_______               ‘ ‘ ‘ ‘    0.1 mm         
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+TASKS
+ID Project        R Description
+-- -------------- - ---------------------------------
+19 Work.XXXXXXXXX R XXXXXXXXXXX
+28 Work.XXXXXX      XXXXXXXXXXX
+20 Work.XXXXX       XXXXXXXXXXX
+27 Work.XXXXX       XXXXXXXXXXX
+ 8 Work.XXXXX       XXXXXXXXXXX
+14 Work.XXXXXXXX    XXXXXXXXXXX
+16 Work.XXX         XXXXXXXXXXX
+15 Work.XXX         XXXXXXXXXXX
+12 Home.XXXX        XXXXXXXXXXX
+29 Work.XX        R XXXXXXXXXXX
+13 Work.XXXX        XXXXXXXXXXX
+11 Home.XXXX        XXXXXXXXXXX
+18 Work.XXXX        XXXXXXXXXXX
+17 Work.XXXXXX    R XXXXXXXXXXX
+21 Work.XXXXXX    R XXXXXXXXXXX
+22 Work.XXXXXX    R XXXXXXXXXXX
+23 Work.XXXXXX    R XXXXXXXXXXX
+24 Work.XXXXXXXXX R XXXXXXXXXXX
+25 Work.XXXXXXXXX R XXXXXXXXXXX
+
+19 tasks
+
+WORD OF THE DAY
+plasticity
+    condition of being able to be shaped or formed; pliability 12345678
