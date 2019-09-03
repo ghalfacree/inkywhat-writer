@@ -22,7 +22,7 @@ The Tom Thumb font doesn't exactly cover the full UTF-8 character set,
 though, so you'll likely need to pass your text through iconv first:
 
 ```
-$ iconv -f UTF-8 -t ISO-8859-1//TRANSLIT scheduleexample.txt |\
+$ iconv -f UTF-8 -t ISO-8859-1//TRANSLIT scheduleexample.txt | \
 ./inkywhat-writer.py
 ```
 
@@ -31,9 +31,17 @@ to print, there's another step: getting rid of those wind-direction
 arrows that iconv will just mojibake into a question mark:
 
 ```
-$ sed 's/← \|→ \|↓ \|↑ \|↘ \|↙ \|↖ \|↗ //g' scheduleexample.txt |\
+$ sed 's/← \|→ \|↓ \|↑ \|↘ \|↙ \|↖ \|↗ //g' scheduleexample.txt | \
 iconv -f UTF-8 -t ISO-8859-1//TRANSLIT | ./inkywhat-writer.py
 ```
+
+There's always the problem where you're running dailyschedule.sh and
+all its multitudinous dependencies on a different system to the wHAT,
+though. Oh, wait, ssh is a thing that exists...
+
+$ sed 's/← \|→ \|↓ \|↑ \|↘ \|↙ \|↖ \|↗ //g' scheduleexample.txt | \
+iconv -f UTF-8 -t ISO-8859-1//TRANSLIT | ssh pi@raspberrypi.local \
+"cat - | ./inkywhat-writer.py"
 
 If you're *not* using the output of dailyschedule.sh as the text to
 print, then this version of inkywhat-writer probably isn't the best:
