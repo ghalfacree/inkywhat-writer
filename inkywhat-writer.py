@@ -16,11 +16,11 @@ font = ImageFont.load("tom-thumb.pil")
 texty = 0
 
 for i in range(4):
-    draw.text((8, texty), sys.stdin.readline(), inky_display.RED, font)
+    draw.text((6, texty), sys.stdin.readline(), inky_display.RED, font)
     texty = (texty + 6)
 
 for line in sys.stdin:
-    draw.text((8, texty), line, inky_display.BLACK, font)
+    draw.text((6, texty), line, inky_display.BLACK, font)
     texty = (texty + 6)
 
 inky_display.set_image(img.rotate(90, expand=True))
