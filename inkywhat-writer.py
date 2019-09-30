@@ -23,5 +23,5 @@ for line in sys.stdin:
     draw.text((6, texty), line, inky_display.BLACK, font)
     texty = (texty + 6)
 
-inky_display.set_image(img.rotate(90, expand=True))
+inky_display.set_image(img.rotate(270, expand=True))
 inky_display.show()
